@@ -58,7 +58,7 @@ This repository implements a machine learning–based spam filter for SMS messag
    jupyter notebook notebooks/spam_message_detection.ipynb
    ```
 
-5. **Run the demo app**
+5. **Run the demo app (optional)**
 
    ```bash
    streamlit run app.py
@@ -107,8 +107,14 @@ Typical performance on a standard SMS spam dataset:
 
 ---
 
+## 📚 References
+
+- **UCI SMS‑Spam Collection Dataset**  
+- Scikit-learn tutorials on text classification
+
+---
+
 ## 👤 Author
 
 `alakendu003`
 
----
