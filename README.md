@@ -19,15 +19,15 @@ This repository implements a machine learning–based spam filter for SMS messag
 ```
 .
 ├── data/
-│   └── spam.csv             # Raw SMS dataset (labels + messages)
+│   └── spam.csv                     # Raw SMS dataset (labels + messages)
 ├── notebooks/
-│   └── spam_detector.ipynb # EDA, model training & evaluation
+│   └── spam_message_detection.ipynb # EDA, model training & evaluation
 ├── model/
-│   ├── vectorizer.pkl      # Saved CountVectorizer or TF‑IDF
-│   └── model.pkl           # Trained ML model
-├── app.py                  # Optional Streamlit or Flask UI
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
+│   ├── vectorizer.pkl               # Saved CountVectorizer or TF‑IDF
+│   └── model.pkl                    # Trained ML model
+├── app.py                           # Optional Streamlit or Flask UI
+├── requirements.txt                 # Python dependencies
+└── README.md                        # This file
 ```
 
 ---
